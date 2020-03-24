@@ -1,0 +1,24 @@
+{
+  "name": "UnitTest-Mocha",
+  "version": "1.0.0",
+  "description": "Build a simple unit test by Mocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/born1031/UnitTest-Mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/born1031/UnitTest-Mocha/issues"
+  },
+  "homepage": "https://github.com/born1031/UnitTest-Mocha#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1",
+    "should": "^13.2.3"
+  }
+}
