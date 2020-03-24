@@ -13,7 +13,7 @@ describe('#min', () => {
     // Check the array is undefined.
     it('should return undefined when array is empty', done => {
         var minimun = min([]);
-        (minimun === undefined).should.be.true;
+        (minimun === undefined).should.equal(true);
         done();
     });
 });
