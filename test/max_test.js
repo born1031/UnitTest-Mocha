@@ -13,7 +13,7 @@ describe('#max', () => {
     // Check the array is undefined.
     it('should return undefined when array is empty', done => {
         var maximun = max([]);
-        (maximun === undefined).should.be.true;
+        (maximun === undefined).should.equal(true);
         done();
     });
 });

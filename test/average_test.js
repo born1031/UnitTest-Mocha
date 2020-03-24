@@ -12,8 +12,8 @@ describe('#average', () => {
 
     // Check the return 'NaN'.
     it('should return NaN when array is empty', done => {
-        var avg = average([11]);
-        isNaN(avg).should.be.true;
+        var avg = average([]);
+        isNaN(avg).should.equal(true);
         done();
     });
 });
